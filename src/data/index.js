@@ -1,0 +1,105 @@
+export const categories=[
+    {
+        id:1,
+       image:require('../image/smart.png'),
+       background:'#CC99FF',
+       type:"smart",
+      
+    },
+    {
+        id:2,
+      image:require('../image/ipad.png'),
+      background:'#6666FF',
+      type:"ipad",
+   
+    },
+    {
+        id:3,
+        image:require('../image/macbook.png'),
+        background:'#FFCC00',
+        type:"macbook"
+
+      },
+];
+export const smartPhone=[
+    {
+        id:1,
+        name:"SmartPhone",
+        image:require('../image/1.png'),
+        price:899,
+        danhgia:require('../image/Rating5.png'),
+        type:"smart",
+        option:'bestsale'
+    },
+    {
+        id:2,
+        name:"SmartPhone",
+        image:require('../image/2.png'),
+        price:899,
+        danhgia:require('../image/Rating5.png'),
+        type:"smart",
+        option:'bestsale'
+    },
+    {
+        id:3,
+        name:"SmartPhone",
+        image:require('../image/3.png'),
+        price:789,
+        danhgia:require('../image/Rating5.png'),
+        type:"smart",
+        option:'bestsale'
+    },
+    {
+        id:4,
+        name:"SmartPhone",
+        image:require('../image/4.png'),
+        price:999,
+        danhgia:require('../image/Rating5.png'),
+        type:"smart",
+        option:'bestmatched'
+    },
+    {
+        id:5,
+        name:"Ipad",
+        image:require('../image/ipad.png'),
+        price:1099,
+        danhgia:require('../image/Rating5.png'),
+        type:"ipad",
+        option:'bestsale'
+    },
+    {
+        id:6,
+        name:"Macbook",
+        image:require('../image/macbook.png'),
+        price:3099,
+        danhgia:require('../image/Rating5.png'),
+        type:"macbook",
+        option:'popular'
+    },
+];
+export const banners=[
+    require('../image/banner.png'),
+]
+export const account=[
+    {
+email:"a",
+password:'123'
+    },
+    {
+     email:"b",
+     password:'123'
+            },
+            {
+                email:"c",
+                password:'123'
+                    },
+                    {
+                        email:"d",
+                        password:'123'
+                            },
+                            {
+                                email:"e",
+                                password:'123'
+                                    },
+
+]
